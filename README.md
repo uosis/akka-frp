@@ -63,6 +63,10 @@ We are currently using [scala.frp](https://github.com/dylemma/scala.frp), [patch
 
 `EventStreamImplicits` - a set of methods to provide clean interface for handling events using [compiler generated continuations](https://github.com/scala/scala-continuations).
 
+## Examples
+
+There is a set of examples under [akka-frp/examples/src](akka-frp/examples/src) that showcase the major features of the library.
+
 ## Installation
 
 The project uses [Mill](https://www.lihaoyi.com/mill/) for building. Wrapper script is checked in, and the only external dependencies are JDK and our patched version of FRP library.
